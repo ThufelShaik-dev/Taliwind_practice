@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clipboard Website</title>
+    <!-- <link rel="stylesheet" href="./output.css" /> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="output.css" />
+
+    <style>
+      body {
+        background-image: url("../major_project1_images/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      @media (max-width: 576px) {
+        body {
+          background-image: url("../major_project1_images/bg-header-mobile.png");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- hero section  -->
+    <section id="hero">
+      <div class="section-container mb-40 pt-16">
+        <img
+          src="../major_project1_images/logo.svg"
+          class="mx-auto my-16"
+          alt=""
+        />
+        <h3 class="h3-container">A history of everything you copy</h3>
+        <p class="p-container mb-10 text-2xl">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <!-- button containers  -->
+        <div class="button-container">
+          <a
+            href="javascript:void()"
+            class="p-4 px-8 rounded-full shadow-xl bg-strongCyan duration-200 hover:opacity-80"
+            >Download for iOS</a
+          >
+          <a
+            href="javascript:void()"
+            class="p-4 px-8 rounded-full shadow-xl bg-lightBlue duration-200 hover:opacity-80"
+            >Download for Mac</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Snippets Section -->
+    <section id="snippets">
+      <div class="section-container my-20">
+        <h3 class="h3-container">Keep track of your snippets</h3>
+        <p class="p-container mb-24">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section  -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="../major_project1_images/image-computer.png"
+              class="top-0 right-[50%]"
+              alt=""
+            />
+          </div>
+
+          <!-- Item container -->
+
+          <div
+            class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16"
+          >
+            <!-- Item 1  -->
+
+            <div>
+              <h5 class="h5-container">Quick Search</h5>
+              <p class="max-w-md text-grayishBlue">
+                Easily search your snippets by content, category , web address,
+                application, and more.
+              </p>
+            </div>
+            <!-- Item 2  -->
+
+            <div>
+              <h5 class="h5-container">iCloud Sync</h5>
+              <p class="max-w-md text-grayishBlue">
+                INstantly saves and syncs snippets across all your devices.
+              </p>
+            </div>
+            <!-- Item 3  -->
+
+            <div>
+              <h5 class="h5-container">Completely History</h5>
+              <p class="max-w-md text-grayishBlue">
+                Retrive any snippets from the first moment you started using the
+                app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Access any where  -->
+
+    <section id="access">
+      <div class="section-container my-20">
+        <h3 class="h3-container">Access Clipboard Anwhere</h3>
+        <p class="p-container mb-24">
+          Whether yo're on the fo, or at your computer, you can access all your
+          Clipboard snippets in a few simple clicks.
+        </p>
+        <img
+          src="../major_project1_images/image-devices.png"
+          class="mx-auto"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- supercharge section  -->
+    <section>
+      <div class="section-container my-20">
+        <h3 class="h3-container">Supercharge your workflow</h3>
+        <p class="p-container mb-16">
+          We've got the tools to boost your prductivity
+        </p>
+      </div>
+
+      <!-- items container  -->
+      <div
+        class="flex flex-col md:flex-row space-y-16 md:space-y-0 items-center justify-between md:space-x-12"
+      >
+        <!-- Item-1  -->
+        <div class="flex flex-col items-center space-y-5">
+          <img
+            src="../major_project1_images/icon-blacklist.svg"
+            alt=""
+            class="mb-6"
+          />
+          <h5 class="h5-container">Create Blacklist</h5>
+          <p class="p-container max-w-md text-grayishBlue">
+            Easily search your sniipet by content, category, web address,
+            application, and more.
+          </p>
+        </div>
+        <!-- Item-2  -->
+        <div class="flex flex-col items-center space-y-5">
+          <img
+            src="../major_project1_images/icon-text.svg"
+            alt=""
+            class="mb-6"
+          />
+          <h5 class="h5-container">Plain Text Snippet</h5>
+          <p class="p-container max-w-md text-grayishBlue">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        <!-- Item-3  -->
+        <div class="flex flex-col items-center space-y-5">
+          <img
+            src="../major_project1_images/icon-preview.svg"
+            alt=""
+            class="mb-6"
+          />
+          <h5 class="h5-container">Sneak Preview</h5>
+          <p class="p-container max-w-md text-grayishBlue">
+            Quick preview of all snippets on you Clipboard for easy access.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Refrences Section  -->
+    <section>
+      <div
+        class="flex flex-col md:flex-row items-center max-w-6xl px-10 mx-auto justify-between space-y-16 my-44 md:space-y-0"
+      >
+        <img src="../major_project1_images/logo-google.png" alt="" />
+        <img src="../major_project1_images/logo-ibm.png" alt="" />
+        <img src="../major_project1_images/logo-microsoft.png" alt="" />
+        <img src="../major_project1_images/logo-hp.png" alt="" />
+        <img src="../major_project1_images/logo-vector-graphics.png" alt="" />
+      </div>
+    </section>
+
+    <footer class="bg-gray-50">
+      <div class="section-container">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <img
+            src="../major_project1_images/logo.svg"
+            alt=""
+            class="scale-50"
+          />
+
+          <!-- container for menus and social -->
+
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+          >
+            <!-- Menus  -->
+            <div
+              class="flex flex-col md:flex-row md:ml-24 space-y-4 md:space-y-0 md:space-x-24"
+            >
+              <!-- menu-1  -->
+              <div class="flex flex-col text-center md:text-left space-y-4">
+                <div>
+                  <a href="javascript:void()" class="hover:text-strongCyan"
+                    >FAQs</a
+                  >
+                </div>
+                <div>
+                  <a href="javascript:void()" class="hover:text-strongCyan"
+                    >Contace Us</a
+                  >
+                </div>
+              </div>
+              <!-- menu-2  -->
+              <div class="flex flex-col text-center md:text-left space-y-4">
+                <div>
+                  <a href="javascript:void()" class="hover:text-strongCyan"
+                    >Privacy</a
+                  >
+                </div>
+                <div>
+                  <a href="javascript:void()" class="hover:text-strongCyan"
+                    >Press kit</a
+                  >
+                </div>
+              </div>
+              <!-- menu-3  -->
+              <div class="flex flex-col text-center md:text-left space-y-4">
+                <div>
+                  <a href="javascript:void()" class="hover:text-strongCyan"
+                    >Install Guide</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Icons  -->
+            <div class="flex justify-between w-32">
+              <a href="javascript:void()"
+                ><img src="../major_project1_images/icon-facebook.svg" alt=""
+              /></a>
+              <a href="javascript:void()"
+                ><img
+                  src="../major_project1_images/icon-twitter.svg"
+                  alt="" /></a
+              ><a href="javascript:void()"
+                ><img src="../major_project1_images/icon-instagram.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
